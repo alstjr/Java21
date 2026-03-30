@@ -15,7 +15,6 @@ public class Operator09 {
 		// 중첩가능
 		int result3 = (num > 2)? (num<29)?10:20:200;
 		System.out.println(result3);
-	
 	}
 
 }

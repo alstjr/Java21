@@ -15,6 +15,8 @@ public class Test11 {
 		int max = (num>num2)?((num>num3)?num:num3):(num2>num3)?num2:num3;
 			
 		System.out.printf("정수 %d 과 정수 %d, 정수 %d 중에서 최대값 : %d", num,num2,num3,max);
+		
+		scan.close();
 	}
 
 }

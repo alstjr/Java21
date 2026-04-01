@@ -28,6 +28,12 @@ public class ArrayTest_01 {
 		for(int i=0; i<num.length; i++) {
 			System.out.printf("num[%d] = %d\n",i , num[i]);
 		}
+		
+		// 향상된 for문
+		for(int n : num) {
+			System.out.println(n);
+		}
+		
 	}
 
 }

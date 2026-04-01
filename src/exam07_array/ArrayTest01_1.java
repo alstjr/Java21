@@ -16,7 +16,11 @@ public class ArrayTest01_1 {
 		for(int i=0; i<name.length; i++) {
 			System.out.printf("name[%d] : %s\n",i ,name[i]);
 		}
-
+		
+		//향상된 for문
+		for(String n: name) {
+			System.out.println(n);
+		}
 	}
 
 }

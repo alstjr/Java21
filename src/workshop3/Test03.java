@@ -11,16 +11,17 @@ public class Test03 {
 //			System.out.println();
 			
 			int i = 0;
-			int j = 0;
 			while(i<=10) {
-				i++;
+				int j = 0;
+				
 				while(j<=i) {
+					System.out.print("*");
 					j++;
-					System.out.println("*");
 				}
 				System.out.println();
+				i++;
 			}
 	}	
-	}
+}
 
 
